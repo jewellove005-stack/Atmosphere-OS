@@ -1,55 +1,23 @@
 {
-"display_override": ["window-controls-overlay"], 
   "name": "Atmosphere OS Meteorological Intelligence",
   "short_name": "Atmosphere OS",
-  "start_url": "./index.html",
+  "start_url": "/index.html",
   "display": "standalone",
-  "display-override": ["window-controls-overlay", "standalone", "browser"],
   "description": "An advanced client-side progressive web application delivering clean, real-time climate data caching.",
   "lang": "en",
   "dir": "auto",
   "theme_color": "#0d1117",
   "background_color": "#0d1117",
   "orientation": "portrait",
-  "protocol_handlers": [
-    {
-      "protocol": "web+weather",
-      "url": "./index.html?source=%s"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "./screenshot-1.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Atmosphere OS dashboard overview"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Current conditions",
-      "short_name": "Overview",
-      "description": "Open the live meteorological overview",
-      "url": "./index.html#overview",
-      "icons": [
-        {
-          "src": "./icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    }
-  ],
   "icons": [
     {
-      "src": "./icon-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./icon-192.png",
+      "src": "/icon-512.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
